@@ -10,7 +10,7 @@ the Notifier for OS X, Linux and Windows as TAP reporter
 
 ## How to Use
 
-You can use tap-notify in the same way as other [TAP reporters](https://github.com/substack/tape#pretty-reporters).
+You can use tap-notify in the same way as other [TAP reporters](https://github.com/substack/tape#pretty-reporters). I recommend use at immediately after `tape <glob ...>`.
 
 ```
 tape ./*.test.js | tap-notify | tap-diff
