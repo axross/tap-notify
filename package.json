@@ -1,7 +1,7 @@
 {
   "name": "tap-notify",
   "version": "0.0.1",
-  "description": "",
+  "description": "[![npm version](https://badge.fury.io/js/tap-notify.svg)](http://badge.fury.io/js/tap-notify)",
   "main": "./distributions/index.js",
   "bin": {
     "tap-notify": "./distributions/cli.js"
@@ -19,5 +19,22 @@
   },
   "devDependencies": {
     "babel": "^5.8.34"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/axross/tap-notify.git"
+  },
+  "keywords": [
+    "tap",
+    "tape",
+    "ava",
+    "test",
+    "reporter",
+    "notify",
+    "notifier"
+  ],
+  "bugs": {
+    "url": "https://github.com/axross/tap-notify/issues"
+  },
+  "homepage": "https://github.com/axross/tap-notify#readme"
 }
