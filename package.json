@@ -1,0 +1,23 @@
+{
+  "name": "tap-notify",
+  "version": "0.0.1",
+  "description": "",
+  "main": "./distributions/index.js",
+  "bin": {
+    "tap-notify": "./distributions/cli.js"
+  },
+  "scripts": {
+    "babel": "babel ./sources --out-dir ./distributions",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "axross <kou@axross.org> (http://axross.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "node-notifier": "^4.3.1",
+    "tap-parser": "^1.2.2",
+    "through2": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel": "^5.8.34"
+  }
+}
