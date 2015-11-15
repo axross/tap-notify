@@ -64,7 +64,7 @@ var createReporter = function createReporter() {
       }, passedOptions));
     } else {
       _nodeNotifier2['default'].notify(Object.assign({
-        message: result.fail + ' of ' + result.count + ' tests failed at ' + errorOccuredAt
+        message: (result.fail || 0) + ' of ' + result.count + ' tests failed' + (errorOccuredAt ? ' at ' + errorOccuredAt : '')
       }, failedOptions));
     }
   });
