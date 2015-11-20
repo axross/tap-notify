@@ -24,7 +24,7 @@ Or use with `createStream()`:
 
 ```javascript
 var test = require('tape');
-var tapDiff = require('tapDiff');
+var tapDiff = require('tap-diff');
 var tapNotify = require('tap-notify');
 
 test.createStream()
