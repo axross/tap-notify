@@ -30,7 +30,7 @@ const createReporter = ({ passed, failed } = {}) => {
   p.on('assert', assert => {
     if (assert.ok) return;
 
-    errorOccuredAt = assert.diag.at
+    errorOccuredAt = assert.diag && assert.diag.at
   });
 
   p.on('complete', result => {

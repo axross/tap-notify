@@ -56,7 +56,7 @@ var createReporter = function createReporter() {
   p.on('assert', function (assert) {
     if (assert.ok) return;
 
-    errorOccuredAt = assert.diag.at;
+    errorOccuredAt = assert.diag && assert.diag.at;
   });
 
   p.on('complete', function (result) {
